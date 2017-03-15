@@ -25,6 +25,8 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
+echo 'grumbar.me' >> public/CNAME
+
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publish to gh-pages (publish.sh)"
 
