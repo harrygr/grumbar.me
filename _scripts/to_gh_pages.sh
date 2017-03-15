@@ -10,6 +10,9 @@ then
     exit 1;
 fi
 
+[[ -d themes ]] || git clone https://github.com/sethmacleod/aerial.git themes/aerial
+[[ -d content ]] || mkdir content
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
