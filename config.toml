@@ -1,0 +1,28 @@
+languageCode = "en-us"
+title = "Harry Grumbar"
+baseurl = "http://grumbar.me/"
+theme = "aerial"
+
+[params]
+  name = "Harry Grumbar"
+  about = ""
+  copyright = "Harry Grumbar"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = "false"
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "https://twitter.com/harrygrumbar"
+
+[[params.social]]
+  medium = "Instagram"
+  icon = "instagram"
+  link = "https://instagram.com/harrygrumbar"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/harrygr"
+
