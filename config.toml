@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Harry Grumbar"
-baseurl = "http://grumbar.me/"
+baseurl = "https://grumbar.me/"
 theme = "aerial"
 
 [params]
